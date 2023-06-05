@@ -9,7 +9,7 @@ driver = webdriver.Chrome()
 driver.get(url="https://qcpi.questcdn.com/cdn/posting/?group=1950787&provider=1950787")
 time.sleep(1)
 
-# Selecting the first row
+# Selecting the first posting
 button = driver.find_element(By.CSS_SELECTOR,"tbody>tr>td>a")
 button.click()
 
